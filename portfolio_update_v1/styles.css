@@ -93,9 +93,20 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: #76d609;
 }
-.card {
+
+.card-experience {
+  margin: auto;
+  padding: 20px 40px 40px;
+  max-width: 1200px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+
+.card-index {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -105,13 +116,17 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+.card-index:hover {
   border-color: #ff99ff;
 }
 
 ul.skills {
   padding: 0;
   text-align: center;
+}
+
+ul.experience-list li {
+  line-height: 1.6em;
 }
 
 .skills li {
