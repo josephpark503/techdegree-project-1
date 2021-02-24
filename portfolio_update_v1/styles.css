@@ -55,7 +55,13 @@ a:hover {
   color: white
 }
 
-header {
+header.experience {
+  text-align: center;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+header.index {
   text-align: center;
   background: url('images/background.png') no-repeat center center ;
   background-size: cover;
@@ -72,13 +78,6 @@ header .profile-image {
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
-}
-
-header .experience {
-  text-align: center;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
 }
 
 header .profile-image:hover {
@@ -187,8 +186,12 @@ a.social:hover {
       margin: 0 auto;
   }
 
-  header {
+  header.index {
     min-height: 470px;
+  }
+
+  header.experience {
+    min-height: 30px;
   }
 
   .nav {
